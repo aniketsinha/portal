@@ -4,12 +4,13 @@ import java.util.ArrayList;
 
 public class Education {
 
-	public Degree xth;	
-	public Degree xii;
-	public Degree ug;
-	public Degree pg;
-	public ArrayList<Degree> moreDegrees;
-	public ArrayList<Certification> certifications;
+	private Degree xth;	
+	private Degree xii;
+	private Degree ug;
+	private Degree pg;
+	private ArrayList<Degree> moreDegrees;
+	private ArrayList<Certification> certifications;
+	
 	public Degree getXth() {
 		return xth;
 	}

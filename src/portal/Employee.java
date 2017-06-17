@@ -1,10 +1,11 @@
 package portal;
 
 public class Employee extends Person{
-	public Long id;
-	public Department department;
-	public Company company;
-	public CompanyBranch branch;
+	private Long id;
+	private Department department;
+	private Company company;
+	private CompanyBranch branch;
+	
 	public Long getId() {
 		return id;
 	}

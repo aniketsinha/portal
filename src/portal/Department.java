@@ -1,10 +1,11 @@
 package portal;
 
 public class Department {
-	public int id;
-	public String name;
-	public int headCount;
-	public Employee manager;
+	private int id;
+	private String name;
+	private int headCount;
+	private Employee manager;
+	
 	public int getId() {
 		return id;
 	}

@@ -3,12 +3,13 @@ package portal;
 import java.util.Date;
 
 public class Application {
-	public Long id;
-	public JobPost jobPost;
-	public Candidate candidate;
-	public Date appliedDate;
-	public boolean isViewedByHR;
-	public boolean isShortlisted;
+	private Long id;
+	private JobPost jobPost;
+	private Candidate candidate;
+	private Date appliedDate;
+	private boolean isViewedByHR;
+	private boolean isShortlisted;
+	
 	public Long getId() {
 		return id;
 	}

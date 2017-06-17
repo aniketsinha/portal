@@ -4,15 +4,16 @@ import java.util.ArrayList;
 
 public class Salary {
 
-	public float basic;
-	public float hra;
-	public float conveyance;
-	public float educationAllowance;
-	public float otherAllowance;
-	public boolean isESOP;
-	public float esopPercent;
-	public ArrayList<Perk> perks;
-	public float ctc;
+	private float basic;
+	private float hra;
+	private float conveyance;
+	private float educationAllowance;
+	private float otherAllowance;
+	private boolean isESOP;
+	private float esopPercent;
+	private ArrayList<Perk> perks;
+	private float ctc;
+	
 	public float getBasic() {
 		return basic;
 	}

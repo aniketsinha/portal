@@ -1,10 +1,11 @@
 package portal;
 
 public class EducationalInstitution {
-	public Long id;
-	public String collegeName;
-	public String city;
-	public String country;
+	private Long id;
+	private String collegeName;
+	private String city;
+	private String country;
+	
 	public Long getId() {
 		return id;
 	}

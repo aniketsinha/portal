@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class PastJob extends Job{
-	public Date joiningDate;
-	public Date leavingDate;
-	public ArrayList<Skill> skills;
+	private Date joiningDate;
+	private Date leavingDate;
+	private ArrayList<Skill> skills;
+	
 	public Date getJoiningDate() {
 		return joiningDate;
 	}

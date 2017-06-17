@@ -3,10 +3,11 @@ package portal;
 import java.util.ArrayList;
 
 public class CompanyBranch {
-	public Long id;
-	public String city;
-	public Employee manager;
-	public ArrayList<Department> departments;
+	private Long id;
+	private String city;
+	private Employee manager;
+	private ArrayList<Department> departments;
+	
 	public Long getId() {
 		return id;
 	}

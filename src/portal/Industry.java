@@ -3,9 +3,10 @@ package portal;
 import java.util.ArrayList;
 
 public class Industry {
-	public Long id;
-	public String name;
-	public ArrayList<Industry> relatedIndustries;
+	private Long id;
+	private String name;
+	private ArrayList<Industry> relatedIndustries;
+	
 	public Long getId() {
 		return id;
 	}

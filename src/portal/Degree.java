@@ -2,10 +2,11 @@ package portal;
 
 public class Degree {
 	
-	public Long id;
-	public int year;
-	public EducationalInstitution institute;
-	public float percent;
+	private Long id;
+	private int year;
+	private EducationalInstitution institute;
+	private float percent;
+	
 	public Long getId() {
 		return id;
 	}

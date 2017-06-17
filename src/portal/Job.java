@@ -2,11 +2,12 @@ package portal;
 
 public class Job {
 	
-	public Long id;
-	public String name;
-	public String description;
-	public Department department;
-	public Company company;
+	private Long id;
+	private String name;
+	private String description;
+	private Department department;
+	private Company company;
+	
 	public Long getId() {
 		return id;
 	}

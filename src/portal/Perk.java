@@ -2,9 +2,10 @@ package portal;
 
 public class Perk {
 
-	public Long id;
-	public String name;
-	public String description;
+	private Long id;
+	private String name;
+	private String description;
+	
 	public Long getId() {
 		return id;
 	}

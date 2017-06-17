@@ -1,8 +1,9 @@
 package portal;
 
 public class Skill {
-	public Long id;
-	public String name;
+	private Long id;
+	private String name;
+	
 	public Long getId() {
 		return id;
 	}

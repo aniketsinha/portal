@@ -1,18 +1,19 @@
 package portal;
 
 public class Company {
-	public Long id;
-	public String name;
-	public Employee ceo;
-	public Industry industry;
-	public int noOfEmployees;
-	public int noOfBranches;
-	public CompanyBranch headQuarter;
-	public int yearOfInception;
-	public boolean isPrivatelyHeld;
-	public boolean isProfitable;
-	public Long annualRevenue;
-	public float glassdoorRating;
+	private Long id;
+	private String name;
+	private Employee ceo;
+	private Industry industry;
+	private int noOfEmployees;
+	private int noOfBranches;
+	private CompanyBranch headQuarter;
+	private int yearOfInception;
+	private boolean isPrivatelyHeld;
+	private boolean isProfitable;
+	private Long annualRevenue;
+	private float glassdoorRating;
+	
 	public Long getId() {
 		return id;
 	}

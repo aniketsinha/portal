@@ -4,16 +4,17 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class JobPost extends Job{
-	public Long id;
-	public Job job;
-	public ArrayList<Skill> requiredSkills;
-	public String description;
-	public Salary minSalary;
-	public Salary maxSalary;
-	public int joiningInDays;
-	public Date postedDate;
-	public Employee poster;
-	public ArrayList<Application> applications;
+	private Long id;
+	private Job job;
+	private ArrayList<Skill> requiredSkills;
+	private String description;
+	private Salary minSalary;
+	private Salary maxSalary;
+	private int joiningInDays;
+	private Date postedDate;
+	private Employee poster;
+	private ArrayList<Application> applications;
+	
 	public Long getId() {
 		return id;
 	}

@@ -1,9 +1,10 @@
 package portal;
 
 public class Certification {
-	public Long id;
-	public String name;
-	public String issuingAuthority;
+	private Long id;
+	private String name;
+	private String issuingAuthority;
+	
 	public Long getId() {
 		return id;
 	}
